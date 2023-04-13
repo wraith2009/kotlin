@@ -1,0 +1,24 @@
+package com.example.secoundproject
+
+fun main()
+{
+    /*
+    1. && : conditional AND
+    2. || : conditional OR
+
+     */
+
+    var x:Int =5
+    var y:Int =8
+    var z:Int =12
+
+    var result:Boolean = true
+    //conditional (&&)
+
+    result = (x>y) && (y>z)
+    println("result : " + result)
+
+    //conditional OR(||)
+    result =(x<y) || (y>z)
+    println("result :" + result)
+}
