@@ -1,0 +1,25 @@
+package com.example.secoundproject
+
+fun main() {
+    var number1: Double = 8.4
+    var number2: Double = 4.2
+
+    var result: Double = 0.0
+
+    result = number1 + number2
+    println(" 1.number1 + number2= " + result)
+
+    result = number1 - number2
+    println(" 2.number1 - number2= " + result)
+
+    result = number1 * number2
+    println(" 3.number1 * number2= " + result)
+
+
+    result = number1 / number2
+    println(" 4.number1 / number2= " + result)
+
+    result = number1 % number2
+    println(" 5.number1 % number 2= " + result)
+
+}
