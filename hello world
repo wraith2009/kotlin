@@ -1,0 +1,6 @@
+package com.example.secoundproject
+
+fun main()
+{
+    print("Hello World")
+}
