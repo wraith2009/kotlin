@@ -1,0 +1,23 @@
+package com.example.secoundproject
+
+fun main()
+{
+
+    var age = mapOf<String,Int>("Rahul" to 10,"David" to 20)
+    println("Age of Rahul is: "  +age["Rahul"])
+    println("Age of David is: "  +age.get("David"))
+
+    //mutable map
+
+    var mutableAge = mutableMapOf<String,Int>("xyz" to 10, "abc" to 20)
+    mutableAge.put("def",30)
+
+    println("---------------mutable map-------------------")
+
+    println("Age of xyz is: "  +mutableAge["xyz"])
+    println("Age of abc is: "  +mutableAge.get("abc"))
+    println("Age of def is: " +mutableAge["def"])
+
+
+
+}
