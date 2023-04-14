@@ -1,0 +1,16 @@
+package com.example.secoundproject
+
+fun main()
+{
+    /*
+    syntax: var myCharRange= 'a'.rangeTo(other:'z')
+              OR
+            var myCharRange='a'..'z'
+    in operator: you can find if the  letter is in your range
+    syntax: var myChar= 'k' in myCharRange
+     */
+
+    var myCharRange = 'a'.rangeTo('k')
+    var myChar = 'k' in myCharRange
+    println("myCharRange has k :" + myChar)
+}
